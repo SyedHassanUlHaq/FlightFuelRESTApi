@@ -38,11 +38,19 @@ python manage.py runserver
   - **POST** `/api/airplanes/`
     - **Input**: `{ "airplane_id": int, "passengers": int }`
     - **Output**: Details including fuel consumption and max minutes able to fly.
+    - ***For Example***:
+    ```bash
+    curl -X POST http://localhost:8000/api/airplanes/ -d "airplane_id=2&passengers=90"
+    ```
 
 - **List Airplanes**:
   - **GET** `/api/airplanes/`
     - **Output**: List of all airplanes with their details.
-
+    - ***For Example***:
+  ```bash
+  curl http://localhost:8000/api/airplanes/
+  ```
+  
 ### Sample Request (using curl)
 
 - **Create Airplane**:
