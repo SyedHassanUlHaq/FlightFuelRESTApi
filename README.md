@@ -16,7 +16,7 @@ FlightFuelRESTApi is a RESTful API developed  to optimize and manage airplane fu
 1. **Clone The Repository**:
 ```bash
 git clone https://github.com/SyedHassanUlHaq/FlightFuelRESTApi.git
-cd FlightFuelRESTApi
+cd FlightFuelRESTApi/kami_airlines
 ```
 
 2. **Run Migrations:**
